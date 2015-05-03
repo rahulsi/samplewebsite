@@ -10,7 +10,7 @@
 <div class="wrapper row1">
   <div id="header" class="clear">
     <div class="fl_left">
-      <h1><a href="index.html">Academic Education</a></h1>
+      <h1><a href="index.jsp">Academic Education</a></h1>
       <p>Free CSS Website Template</p>
     </div>
     <div class="fl_right">
@@ -37,12 +37,12 @@
     <!-- ###### -->
     <div id="topnav">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="style-demo.html">Style Demo</a></li>
-        <li><a href="full-width.html">Full Width</a></li>
-        <li><a href="3-columns.html">3 Columns</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="index.jsp">Home</a></li>
+        <li class="active"><a href="style-demo.jsp">Style Demo</a></li>
+        <li><a href="full-width.jsp">Full Width</a></li>
+        <li><a href="3-columns.jsp">3 Columns</a></li>
+        <li><a href="portfolio.jsp">Portfolio</a></li>
+        <li><a href="gallery.jsp">Gallery</a></li>
         <li><a href="#">This a very long link</a></li>
         <li class="last"><a href="#">This is the last</a></li>
       </ul>

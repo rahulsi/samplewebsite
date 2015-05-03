@@ -1,29 +1,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
 <head profile="http://gmpg.org/xfn/11">
-<title>Academic Education | Gallery</title>
+<title>Academic Education | Portfolio</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta http-equiv="imagetoolbar" content="no" />
 <link rel="stylesheet" href="styles/layout.css" type="text/css" />
-<!-- Gallery Specific Elements -->
-<script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function () {
-    $("a[rel^='prettyPhoto']").prettyPhoto({
-        theme: 'dark_rounded',
-        overlay_gallery: false
-    });
-});
-</script>
-<link rel="stylesheet" href="styles/prettyPhoto.css" type="text/css" />
-<script type="text/javascript" src="scripts/jquery-prettyPhoto.js"></script>
-<!-- End Gallery Specific Elements -->
 </head>
 <body id="top">
 <div class="wrapper row1">
   <div id="header" class="clear">
     <div class="fl_left">
-      <h1><a href="index.html">Academic Education</a></h1>
+      <h1><a href="index.jsp">Academic Education</a></h1>
       <p>Free CSS Website Template</p>
     </div>
     <div class="fl_right">
@@ -50,12 +37,12 @@ $(document).ready(function () {
     <!-- ###### -->
     <div id="topnav">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="style-demo.html">Style Demo</a></li>
-        <li><a href="full-width.html">Full Width</a></li>
-        <li><a href="3-columns.html">3 Columns</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li class="active"><a href="gallery.html">Gallery</a></li>
+        <li><a href="index.jsp">Home</a></li>
+        <li><a href="style-demo.jsp">Style Demo</a></li>
+        <li><a href="full-width.jsp">Full Width</a></li>
+        <li><a href="3-columns.jsp">3 Columns</a></li>
+        <li class="active"><a href="portfolio.jsp">Portfolio</a></li>
+        <li><a href="gallery.jsp">Gallery</a></li>
         <li><a href="#">This a very long link</a></li>
         <li class="last"><a href="#">This is the last</a></li>
       </ul>
@@ -68,24 +55,38 @@ $(document).ready(function () {
   <div class="rnd">
     <div id="container" class="clear">
       <!-- ####################################################################################################### -->
-      <div id="gallery" class="clear">
-        <h2 class="title">Latest Images From The University</h2>
+      <div id="portfolio">
         <ul>
-          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 1"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 2"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 3"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 4"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li class="last"><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 5"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 6"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 7"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 8"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 9"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li class="last"><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 10"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 11"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 12"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 13"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 14"><img src="images/demo/160x160.gif" alt="" /></a></li>
-          <li class="last"><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 15"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li><img src="images/demo/420x190.gif" alt="" />
+            <h2>Metridiculis conseque quis</h2>
+            <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aenean nunc aenean quis nam nis dui.</p>
+            <p class="readmore"><a href="#">Read More Here &raquo;</a></p>
+          </li>
+          <li class="last"><img src="images/demo/420x190.gif" alt="" />
+            <h2>Metridiculis conseque quis</h2>
+            <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aenean nunc aenean quis nam nis dui.</p>
+            <p class="readmore"><a href="#">Read More Here &raquo;</a></p>
+          </li>
+          <li><img src="images/demo/420x190.gif" alt="" />
+            <h2>Metridiculis conseque quis</h2>
+            <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aenean nunc aenean quis nam nis dui.</p>
+            <p class="readmore"><a href="#">Read More Here &raquo;</a></p>
+          </li>
+          <li class="last"><img src="images/demo/420x190.gif" alt="" />
+            <h2>Metridiculis conseque quis</h2>
+            <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aenean nunc aenean quis nam nis dui.</p>
+            <p class="readmore"><a href="#">Read More Here &raquo;</a></p>
+          </li>
+          <li><img src="images/demo/420x190.gif" alt="" />
+            <h2>Metridiculis conseque quis</h2>
+            <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aenean nunc aenean quis nam nis dui.</p>
+            <p class="readmore"><a href="#">Read More Here &raquo;</a></p>
+          </li>
+          <li class="last"><img src="images/demo/420x190.gif" alt="" />
+            <h2>Metridiculis conseque quis</h2>
+            <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aenean nunc aenean quis nam nis dui.</p>
+            <p class="readmore"><a href="#">Read More Here &raquo;</a></p>
+          </li>
         </ul>
       </div>
       <!-- ####################################################################################################### -->

@@ -15,7 +15,7 @@
 <div class="wrapper row1">
   <div id="header" class="clear">
     <div class="fl_left">
-      <h1><a href="index.html">Sumedha Education</a></h1>
+      <h1><a href="index.jsp">Sumedha Education</a></h1>
       <p>A Tanvika Foundation Enterprise</p>
     </div>
     <div class="fl_right">
@@ -42,12 +42,12 @@
     <!-- ###### -->
     <div id="topnav">
       <ul>
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="style-demo.html">Students</a></li>
-        <li><a href="full-width.html">Coachings</a></li>
-        <li><a href="3-columns.html">Schools</a></li>
-        <li><a href="portfolio.html">News</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+        <li class="active"><a href="index.jsp">Home</a></li>
+        <li><a href="style-demo.jsp">Students</a></li>
+        <li><a href="full-width.jsp">Coachings</a></li>
+        <li><a href="3-columns.jsp">Schools</a></li>
+        <li><a href="portfolio.jsp">News</a></li>
+        <li><a href="gallery.jsp">Gallery</a></li>
         <li><a href="#">Discuss</a></li>
         <li class="last"><a href="#">Ask Sumedha</a></li>
         <li class="last"><a href="#"></a></li>

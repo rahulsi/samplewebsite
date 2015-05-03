@@ -1,16 +1,29 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
 <head profile="http://gmpg.org/xfn/11">
-<title>Academic Education | Full Width</title>
+<title>Academic Education | Gallery</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta http-equiv="imagetoolbar" content="no" />
 <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<!-- Gallery Specific Elements -->
+<script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $("a[rel^='prettyPhoto']").prettyPhoto({
+        theme: 'dark_rounded',
+        overlay_gallery: false
+    });
+});
+</script>
+<link rel="stylesheet" href="styles/prettyPhoto.css" type="text/css" />
+<script type="text/javascript" src="scripts/jquery-prettyPhoto.js"></script>
+<!-- End Gallery Specific Elements -->
 </head>
 <body id="top">
 <div class="wrapper row1">
   <div id="header" class="clear">
     <div class="fl_left">
-      <h1><a href="index.html">Academic Education</a></h1>
+      <h1><a href="index.jsp">Academic Education</a></h1>
       <p>Free CSS Website Template</p>
     </div>
     <div class="fl_right">
@@ -37,12 +50,12 @@
     <!-- ###### -->
     <div id="topnav">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="style-demo.html">Style Demo</a></li>
-        <li class="active"><a href="full-width.html">Full Width</a></li>
-        <li><a href="3-columns.html">3 Columns</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="index.jsp">Home</a></li>
+        <li><a href="style-demo.jsp">Style Demo</a></li>
+        <li><a href="full-width.jsp">Full Width</a></li>
+        <li><a href="3-columns.jsp">3 Columns</a></li>
+        <li><a href="portfolio.jsp">Portfolio</a></li>
+        <li class="active"><a href="gallery.jsp">Gallery</a></li>
         <li><a href="#">This a very long link</a></li>
         <li class="last"><a href="#">This is the last</a></li>
       </ul>
@@ -55,29 +68,43 @@
   <div class="rnd">
     <div id="container" class="clear">
       <!-- ####################################################################################################### -->
-      <h1>Headline 1 Colour and Size</h1>
-      <h2>Headline 2 Colour and Size</h2>
-      <h3>Headline 3 Colour and Size</h3>
-      <h4>Headline 4 Colour and Size</h4>
-      <h5>Headline 5 Colour and Size</h5>
-      <h6>Headline 6 Colour and Size</h6>
-      <p>This is a W3C compliant free website template from <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a>. This template is distributed using a <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>.</p>
-      <p>You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more CSS templates visit <a href="http://www.os-templates.com/">Free Website Templates</a>.</p>
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Etiam vel sapien et est adipiscing commodo.</li>
-        <li>Duis pharetra eleifend sapien, id faucibus dolor rutrum et.</li>
-        <li>Donec et dui dolor, in lacinia leo.</li>
-        <li>Mauris posuere tellus ac purus adipiscing dapibus.</li>
-      </ul>
-      <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
-      <ol>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Etiam vel sapien et est adipiscing commodo.</li>
-        <li>Duis pharetra eleifend sapien, id faucibus dolor rutrum et.</li>
-        <li>Donec et dui dolor, in lacinia leo.</li>
-        <li>Mauris posuere tellus ac purus adipiscing dapibus.</li>
-      </ol>
+      <div id="gallery" class="clear">
+        <h2 class="title">Latest Images From The University</h2>
+        <ul>
+          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 1"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 2"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 3"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 4"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li class="last"><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 5"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 6"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 7"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 8"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 9"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li class="last"><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 10"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 11"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 12"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 13"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 14"><img src="images/demo/160x160.gif" alt="" /></a></li>
+          <li class="last"><a href="images/demo/420x190.gif" rel="prettyPhoto[gallery1]" title="Image 15"><img src="images/demo/160x160.gif" alt="" /></a></li>
+        </ul>
+      </div>
+      <!-- ####################################################################################################### -->
+      <div class="pagination">
+        <ul>
+          <li class="prev"><a href="#">&laquo; Previous</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li class="splitter">&hellip;</li>
+          <li><a href="#">6</a></li>
+          <li class="current">7</li>
+          <li><a href="#">8</a></li>
+          <li><a href="#">9</a></li>
+          <li class="splitter">&hellip;</li>
+          <li><a href="#">14</a></li>
+          <li><a href="#">15</a></li>
+          <li class="next"><a href="#">Next &raquo;</a></li>
+        </ul>
+      </div>
       <!-- ####################################################################################################### -->
     </div>
   </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
 <head profile="http://gmpg.org/xfn/11">
-<title>Academic Education | Portfolio</title>
+<title>Academic Education | Full Width</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta http-equiv="imagetoolbar" content="no" />
 <link rel="stylesheet" href="styles/layout.css" type="text/css" />
@@ -10,7 +10,7 @@
 <div class="wrapper row1">
   <div id="header" class="clear">
     <div class="fl_left">
-      <h1><a href="index.html">Academic Education</a></h1>
+      <h1><a href="index.jsp">Academic Education</a></h1>
       <p>Free CSS Website Template</p>
     </div>
     <div class="fl_right">
@@ -37,12 +37,12 @@
     <!-- ###### -->
     <div id="topnav">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="style-demo.html">Style Demo</a></li>
-        <li><a href="full-width.html">Full Width</a></li>
-        <li><a href="3-columns.html">3 Columns</a></li>
-        <li class="active"><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="index.jsp">Home</a></li>
+        <li><a href="style-demo.jsp">Style Demo</a></li>
+        <li class="active"><a href="full-width.jsp">Full Width</a></li>
+        <li><a href="3-columns.jsp">3 Columns</a></li>
+        <li><a href="portfolio.jsp">Portfolio</a></li>
+        <li><a href="gallery.jsp">Gallery</a></li>
         <li><a href="#">This a very long link</a></li>
         <li class="last"><a href="#">This is the last</a></li>
       </ul>
@@ -55,57 +55,29 @@
   <div class="rnd">
     <div id="container" class="clear">
       <!-- ####################################################################################################### -->
-      <div id="portfolio">
-        <ul>
-          <li><img src="images/demo/420x190.gif" alt="" />
-            <h2>Metridiculis conseque quis</h2>
-            <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aenean nunc aenean quis nam nis dui.</p>
-            <p class="readmore"><a href="#">Read More Here &raquo;</a></p>
-          </li>
-          <li class="last"><img src="images/demo/420x190.gif" alt="" />
-            <h2>Metridiculis conseque quis</h2>
-            <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aenean nunc aenean quis nam nis dui.</p>
-            <p class="readmore"><a href="#">Read More Here &raquo;</a></p>
-          </li>
-          <li><img src="images/demo/420x190.gif" alt="" />
-            <h2>Metridiculis conseque quis</h2>
-            <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aenean nunc aenean quis nam nis dui.</p>
-            <p class="readmore"><a href="#">Read More Here &raquo;</a></p>
-          </li>
-          <li class="last"><img src="images/demo/420x190.gif" alt="" />
-            <h2>Metridiculis conseque quis</h2>
-            <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aenean nunc aenean quis nam nis dui.</p>
-            <p class="readmore"><a href="#">Read More Here &raquo;</a></p>
-          </li>
-          <li><img src="images/demo/420x190.gif" alt="" />
-            <h2>Metridiculis conseque quis</h2>
-            <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aenean nunc aenean quis nam nis dui.</p>
-            <p class="readmore"><a href="#">Read More Here &raquo;</a></p>
-          </li>
-          <li class="last"><img src="images/demo/420x190.gif" alt="" />
-            <h2>Metridiculis conseque quis</h2>
-            <p>Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aenean nunc aenean quis nam nis dui.</p>
-            <p class="readmore"><a href="#">Read More Here &raquo;</a></p>
-          </li>
-        </ul>
-      </div>
-      <!-- ####################################################################################################### -->
-      <div class="pagination">
-        <ul>
-          <li class="prev"><a href="#">&laquo; Previous</a></li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li class="splitter">&hellip;</li>
-          <li><a href="#">6</a></li>
-          <li class="current">7</li>
-          <li><a href="#">8</a></li>
-          <li><a href="#">9</a></li>
-          <li class="splitter">&hellip;</li>
-          <li><a href="#">14</a></li>
-          <li><a href="#">15</a></li>
-          <li class="next"><a href="#">Next &raquo;</a></li>
-        </ul>
-      </div>
+      <h1>Headline 1 Colour and Size</h1>
+      <h2>Headline 2 Colour and Size</h2>
+      <h3>Headline 3 Colour and Size</h3>
+      <h4>Headline 4 Colour and Size</h4>
+      <h5>Headline 5 Colour and Size</h5>
+      <h6>Headline 6 Colour and Size</h6>
+      <p>This is a W3C compliant free website template from <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a>. This template is distributed using a <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>.</p>
+      <p>You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more CSS templates visit <a href="http://www.os-templates.com/">Free Website Templates</a>.</p>
+      <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Etiam vel sapien et est adipiscing commodo.</li>
+        <li>Duis pharetra eleifend sapien, id faucibus dolor rutrum et.</li>
+        <li>Donec et dui dolor, in lacinia leo.</li>
+        <li>Mauris posuere tellus ac purus adipiscing dapibus.</li>
+      </ul>
+      <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
+      <ol>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Etiam vel sapien et est adipiscing commodo.</li>
+        <li>Duis pharetra eleifend sapien, id faucibus dolor rutrum et.</li>
+        <li>Donec et dui dolor, in lacinia leo.</li>
+        <li>Mauris posuere tellus ac purus adipiscing dapibus.</li>
+      </ol>
       <!-- ####################################################################################################### -->
     </div>
   </div>
